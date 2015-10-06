@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<div class="container-fluid">
+    <ul class="list-group">
+        <% users.forEach(function(user){ %>
+        <li class="list-group-item">
+            <%= user.username%>
+        </li>
+        <% }) %>
+    </ul>
+</div>
+
+</body>
+</html>
